@@ -36,7 +36,7 @@ function draw() {
     if(scoreRightWrist > 0.2) {
         circle(rightWristX, rightWristY, 20);
         sonzinho2.stop();
-        if(sonzinho_status2 == false) {
+        if(sonzinho_status1 == false) {
             sonzinho1.play();
             document.getElementById("bomLudmilla").innerHTML ="Atualmente reproduzindo: Bom ";
         }
@@ -44,7 +44,7 @@ function draw() {
     if(scoreLeftWrist > 0.2) {
         circle(leftWristX, leftWristY, 20);
         sonzinho1.stop();
-        if(sonzinho_status1 == false) {
+        if(sonzinho_status2 == false) {
             sonzinho2.play();
             document.getElementById("bomLudmilla").innerHTML ="Atualmente reproduzindo: Bom ";
         }
